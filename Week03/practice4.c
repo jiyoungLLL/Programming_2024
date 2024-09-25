@@ -4,8 +4,7 @@
 #include <stdlib.h>
 
 int main(void) {
-    float input_a, input_b;
-    float output ;
+    float input_a, input_b, output;
 
     printf("enter two integers : ");
     scanf("%f, %f", &input_a, &input_b);
