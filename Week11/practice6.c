@@ -4,16 +4,15 @@
 
 int main(void) {
     FILE *fp = NULL;
-    char c;
+    int c;
     fp = fopen("sample.txt", "r");
 
     if(fp == NULL) {
         printf("파일을 못열음 \n");
     }
 
-    while (fgetc(fp) != EOF){
-        fgetc(fp);
-        printf("%s", c);
+    while ((c = fgetc(fp)) != EOF){
+        printf("%c", c);
     }
     
     fclose(fp);
