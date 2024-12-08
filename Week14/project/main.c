@@ -152,7 +152,7 @@ int main(void) {
     int turn=0;
 
 // ----- EX. 1 : Preparation------------
-    srand(time(NULL));
+    srand((unsigned int)time(NULL));
     opening();
 // ----- EX. 1 : Preparation------------
 
